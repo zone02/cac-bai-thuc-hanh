@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-17 11:16:09 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xNzsxMTowMzoyMCBBTTszNTkx"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xNzsxMToxNjowOSBBTTsxOzM3MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;input the radius of the circle&quot;" newline="True"/>
+            <input variable="x"/>
+            <comment text="the following will call the cricle function using the value the user entered&#13;&#10;notice that this variable is called 'x' while the function user 'Radius'. the value of 'x' is passed to the function. "/>
+            <output expression="&quot;area is&quot;&amp; circle(x)" newline="True"/>
+        </body>
+    </function>
+    <function name="Circle" type="Real" variable="area">
+        <parameters>
+            <parameter name="radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="pi*radius^2"/>
+        </body>
+    </function>
+</flowgorithm>

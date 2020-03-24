@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Administrator"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-17 10:58:20 AM"/>
+        <attribute name="created" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xNzsxMDo0MjoxMyBBTTszNTk1"/>
+        <attribute name="edited" value="QWRtaW5pc3RyYXRvcjs2UzQ3UzVEMTM3U0VYRzE7MjAyMC0wMy0xNzsxMDo1ODoyMCBBTTsyOzM3MDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="the if statement inside the loop will print the correst lyric. bottles vs bottle.&#13;&#10;&#13;&#10;the virsion...&#13;&#10;"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;One bottles of bear on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n&amp;&quot;bottles of bear on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
