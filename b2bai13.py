@@ -1,6 +1,4 @@
-
 from math import sqrt
-
 print("Giải phương trình bậc 2: ax^2 + bx + c = 0")
 a = float(input("Nhập a: "))
 b = float(input("Nhập b: "))
