@@ -1,0 +1,5 @@
+input_file=open('hoang.txt','r')
+a=input_file.read()
+print(" Nội dung văn bản là:")
+print(a)
+input_file.close()    
